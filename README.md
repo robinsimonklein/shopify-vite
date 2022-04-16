@@ -1,8 +1,12 @@
-# Shopify-Vite theme starter
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/36634414/163683259-924c58d7-6b99-42ef-9b83-72b4896ecb0a.png" />
+  <h1>Shopify + Vite theme starter</h1>
+</div>
+
 This template is a blank theme starter for Shopify using [Vite](https://vitejs.dev/) for assets bundling. This unlocks the ability to easily use modern development methods like SCSS, npm packages, entry chunks...
 
 It also uses [Stimulus](https://stimulus.hotwired.dev/) for the javascript code to augment the templates DOM with just enough behavior to make it shine.
-
+  
 ## Getting started
 
 First, [create a repo from this template on GitHub.](https://github.com/robinsimonklein/shopify-vite/generate)
