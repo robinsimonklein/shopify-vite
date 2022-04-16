@@ -1,0 +1,33 @@
+{
+  "settings_schema": {
+    "favicon": {
+      "name": "Favicon",
+      "settings": {
+        "favicon": {
+          "label": "Image du favicon",
+          "info": "Sera redimensionnée en 32x32 px"
+        }
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "name": "Entête",
+      "settings": {
+        "menu": {
+          "label": "Menu principal du site"
+        }
+      }
+    },
+    "hero": {
+      "name": "Hero",
+      "settings": {
+        "title": "Titre du Hero",
+        "surtitle": "Sur-titre",
+        "cover": {
+          "label": "Image de fond"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+<div class="hero__inner">
+  <div data-controller="hello"></div>
+  <span class="hero__surtitle">{{ section.settings.surtitle }}</span>
+  <h1 class="hero__title">{{ section.settings.title }}</h1>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.hero.name",
+  "tag": "section",
+  "class": "hero",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.hero.settings.title"
+    },
+    {
+      "type": "text",
+      "id": "surtitle",
+      "label": "t:sections.hero.settings.surtitle"
+    },
+    {
+      "type": "image_picker",
+      "id": "cover",
+      "label": "t:sections.hero.settings.cover.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero homepage",
+      "settings": {
+        "title": "Hero title",
+        "surtitle": "Hero surtitle"
+      }
+    }
+  ]
+}
+{% endschema %}

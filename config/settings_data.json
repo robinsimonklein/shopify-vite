@@ -1,0 +1,21 @@
+{
+  "current": {
+    "favicon": "shopify:\/\/shop_images\/hopla-games_logo-icon.png",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu": "main-menu"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
