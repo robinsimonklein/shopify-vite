@@ -42,15 +42,15 @@ shopify theme serve
 This theme starter uses [GitHub Actions](https://github.com/features/actions) to maintain the quality of the theme.
 
 #### Shopify/theme-check-action
-Dawn runs [Theme Check](#Theme-Check) on every commit via [Shopify/theme-check-action](https://github.com/Shopify/theme-check-action).
+The theme runs **Shopify Theme Check** on every commit via [Shopify/theme-check-action](https://github.com/Shopify/theme-check-action).
 
 ### Deploy to shopify
 
-You can deploy the theme for production by publishing a new release, or by manually running the "CI/CD" GitHub action by checking the *deploy theme* option.
+You can deploy the theme for production by publishing a new **release**, or by manually running the `CI/CD` *GitHub Action* with the *deploy theme* option checked.
 
 The deployment is automatically done on an orphan branch named "shopify". You don't need to create this branch, it will be created automatically if it doesn't exist yet.
 
-The *shopify* branch is cleaned of all files not needed for Shopify and respects the required theme [directory structure](https://shopify.dev/themes/architecture#directory-structure-and-component-types). 
+The `shopify` branch is cleaned of all files not needed for Shopify and respects the required theme [directory structure](https://shopify.dev/themes/architecture#directory-structure-and-component-types). 
 The `assets` folder contains the assets that are compiled and ready for production.
 
 Publish this theme to Shopify via the **GitHub Integration** and selecting the `shopify` branch. The `main` branch can be used for a development/pre-production environment.
