@@ -8,7 +8,7 @@ This template is a blank theme starter for Shopify using [Vite](https://vitejs.d
 It also uses [Stimulus](https://stimulus.hotwired.dev/) for the javascript code to augment the templates DOM with just enough behavior to make it shine.
   
 > **Warning**
-> This is a strict inimum blank theme, you will need to code all the templates content, style & features to get a production ready theme.
+> This is a strict minimum blank theme, you will need to code all the templates content, style & features to get a production ready theme.
 
 ## Getting started
 
